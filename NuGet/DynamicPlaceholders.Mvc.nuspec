@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>DynamicPlaceholders.Mvc</id>
+        <version>1.0.0.0</version>
+        <title>Sitecore Dynamic Placeholders MVC</title>
+        <authors>Jason Bert</authors>
+        <owners>Fortis Collections</owners>
+        <licenseUrl>https://github.com/Fortis-Collection/dynamic-placeholders-mvc/blob/master/license.txt</licenseUrl>
+        <projectUrl>http://fortis.ws/fortis-collection/dynamic-placeholders/</projectUrl>
+        <iconUrl>http://fortis.ws/wp-content/uploads/2014/11/Logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Allows you to add dynamic placeholders in Sitecore MVC
+
+* Requires Sitecore 8</description>
+        <releaseNotes />
+        <copyright>Copyright 2015</copyright>
+        <tags>Sitecore</tags>
+        <dependencies>
+            <dependency id="DynamicPlaceholders" version="1.0.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="lib\net45\DynamicPlaceholders.Mvc.dll" target="lib\net45\DynamicPlaceholders.Mvc.dll" />
+    </files>
+</package>
