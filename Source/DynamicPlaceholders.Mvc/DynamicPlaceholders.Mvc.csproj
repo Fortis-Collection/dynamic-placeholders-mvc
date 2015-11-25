@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DynamicPlaceholders">
+      <HintPath>..\..\_Libraries\DynamicPlaceholders.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Mvc">
       <HintPath>..\..\_Libraries\Sitecore.Mvc.dll</HintPath>
     </Reference>
