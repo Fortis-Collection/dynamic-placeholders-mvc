@@ -6,9 +6,9 @@ namespace DynamicPlaceholders.Mvc.Extensions
 {
 	public static class SitecoreHelperExtensions
 	{
-		public static HtmlString DynamicPlaceholder(this SitecoreHelper helper, string placeholderName)
+		public static HtmlString DynamicPlaceholder(this SitecoreHelper helper, string placeholderName, string uniqueKey = null)
 		{
-			var placeholder = PlaceholdersContext.Add(placeholderName, RenderingContext.Current.Rendering.UniqueId);
+			var placeholder = PlaceholdersContext.Add(placeholderName, RenderingContext.Current.Rendering.UniqueId, uniqueKey);
 
 			return helper.Placeholder(placeholder);
 		}
